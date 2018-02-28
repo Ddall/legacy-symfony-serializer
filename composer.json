@@ -1,0 +1,29 @@
+{
+    "name": "legacy/serializer",
+    "type": "library",
+    "description": "Symfony Serializer Component v2.*",
+    "keywords": [],
+    "homepage": "http://symfony.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fabien Potencier",
+            "email": "fabien@symfony.com"
+        },
+        {
+            "name": "Symfony Community",
+            "homepage": "http://symfony.com/contributors"
+        },
+        {
+            "name": "Allan IRDEL",
+            "homepage": "http://github.com/Ddall"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "autoload": {
+        "psr-0": { "Legacy\\Symfony\\Component\\Serializer": "" }
+    },
+    "target-dir": "Legacy/Symfony/Component/Serializer"
+}
